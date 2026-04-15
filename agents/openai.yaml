@@ -1,0 +1,3 @@
+display_name: Slop Cleanup
+short_description: Research-first 8-agent codebase cleanup and quality pass
+default_prompt: Clean this repository with the slop-cleanup workflow. Research first, have each of the 8 cleanup lanes produce a critical assessment and recommendations, then implement all high-confidence changes and verify the result.
