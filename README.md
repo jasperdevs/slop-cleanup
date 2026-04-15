@@ -1,6 +1,6 @@
 <h1 align="center">🧹 slop-cleanup</h1>
 
-<p align="center">two cleanup skills: one for code, one for UI</p>
+<p align="center">clean up your slop code with this simple skill, 8 subagents cleaning it up, and there is also a skill for cleaning UI slop</p>
 
 <p align="center">Credit: <a href="https://x.com/shawmakesmagic">shawmakesmagic</a></p>
 
