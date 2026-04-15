@@ -3,7 +3,7 @@ name: slop-cleanup
 description: Deep repository cleanup and code quality improvement workflow. Use when Codex needs to audit and clean a codebase by coordinating 8 specialized subagents to deduplicate code, consolidate shared types, remove unused code, untangle circular dependencies, replace weak types like any or unknown, remove unnecessary try/catch or defensive fallback patterns, delete deprecated or legacy paths, and remove AI slop or low-value comments while researching first and implementing only high-confidence recommendations.
 ---
 
-I want to clean up my codebase and improve code quality. This is a complex task, so we'll need 8 subagents. Make a sub agent for each of the following:
+I want to clean up my codebase and improve code quality. This is a complex task, so we'll need 8 subagents. Make a subagent for each of the following:
 1. Deduplicate and consolidate all code, and implement DRY where it reduces complexity
 2. Find all type definitions and consolidate any that should be shared
 3. Use tools like knip to find all unused code and remove, ensuring that it's actually not referenced anywhere
