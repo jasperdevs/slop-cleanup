@@ -4,6 +4,8 @@
 
 <p align="center">Credit: <a href="https://x.com/shawmakesmagic">shawmakesmagic</a></p>
 
+<p align="center"><a href="https://skills.sh/jasperdevs/slop-cleanup/slop-cleanup">View on skills.sh</a></p>
+
 ## Install
 
 ```bash
