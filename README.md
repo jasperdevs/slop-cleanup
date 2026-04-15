@@ -12,24 +12,22 @@ npx skills add jasperdevs/slop-cleanup
 
 ```mermaid
 flowchart TD
-    A[Clean up the codebase]
-    A --> B[Spawn 8 subagents]
+    A[Start cleanup] --> B[Spawn 8 subagents]
+    B --> C
 
-    B --> C[1. Deduplicate code<br/>and apply DRY]
-    B --> D[2. Consolidate shared<br/>type definitions]
-    B --> E[3. Find and remove<br/>unused code]
-    B --> F[4. Untangle circular<br/>dependencies]
-    B --> G[5. Replace weak types<br/>with strong types]
-    B --> H[6. Remove unnecessary<br/>try catch and fallbacks]
-    B --> I[7. Remove deprecated<br/>legacy and fallback code]
-    B --> J[8. Remove AI slop<br/>stubs and bad comments]
+    subgraph C[8 cleanup lanes]
+        direction LR
+        C1[dedupe]
+        C2[shared types]
+        C3[unused code]
+        C4[circular deps]
+        C5[weak types]
+        C6[try catch cleanup]
+        C7[legacy removal]
+        C8[AI slop cleanup]
+    end
 
-    C --> K[Research current state<br/>write assessment<br/>implement high-confidence fixes]
-    D --> K
-    E --> K
-    F --> K
-    G --> K
-    H --> K
-    I --> K
-    J --> K
+    C --> D[Research each lane]
+    D --> E[Write assessment and recommendations]
+    E --> F[Apply high-confidence fixes]
 ```
