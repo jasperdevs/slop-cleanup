@@ -9,3 +9,16 @@
 ```bash
 npx skills add jasperdevs/slop-cleanup
 ```
+
+```mermaid
+flowchart TD
+    A[slop-cleanup] --> B[8 subagents]
+    B --> C[dedupe and DRY]
+    B --> D[shared types]
+    B --> E[unused code]
+    B --> F[circular deps]
+    B --> G[weak types]
+    B --> H[try catch cleanup]
+    B --> I[legacy and fallback removal]
+    B --> J[AI slop and comments]
+```
