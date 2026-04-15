@@ -1,8 +1,8 @@
 <h1 align="center">🧹 slop-cleanup</h1>
 
-<p align="center">A research-first repository cleanup skill that coordinates 8 specialized subagents and implements only high-confidence fixes.</p>
+<p align="center">clean up your slop code with this simple skill, 8 subants cleaning it up</p>
 
-<p align="center">Credit: <a href="https://github.com/shawmakesmagic">shawmakesmagic</a></p>
+<p align="center">Credit: <a href="https://x.com/shawmakesmagic">shawmakesmagic</a></p>
 
 ## Install
 
